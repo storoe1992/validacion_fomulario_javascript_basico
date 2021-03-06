@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de registro</h1>
+    </header>
+    <section>
+        <div class="form_container">
+        <form class="form" onsubmit="onRegister(event)">
+            <input id="name" class="form__element" placeholder="Nombre"/>
+            <input id="lastname" class=" form__element" placeholder="Apellidos"/>
+            <input id="email" class=" form__element" type="email" placeholder="Correo"/>
+            <input id="user" class=" form__element" placeholder="Usuario"/>
+            <input id="password" class=" form__element" type="password" placeholder="Contraseña"/>
+            <input id="phone" class=" form__element" placeholder="Teléfono"/>
+            <input id="buttonregister" class=" form__element" value="Registrar" type="submit" />
+        </form>
+    </div>
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
